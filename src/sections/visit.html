@@ -1,0 +1,29 @@
+<section class="visit" id="visit" aria-labelledby="visit-title">
+  <div class="visit-info">
+    <h2 id="visit-title" class="lines">Come by Hollis St</h2>
+    <address class="visit-address">
+      <span class="visit-street">61 Hollis St</span>
+      <span>Framingham, MA 01702</span>
+    </address>
+    <p class="visit-status" data-open-status>Open every day from 12:30 PM</p>
+    <table class="hours" aria-label="Opening hours">
+      <tbody>
+        <tr data-day="1"><th scope="row">Monday</th><td>12:30 PM – 11:00 PM</td></tr>
+        <tr data-day="2"><th scope="row">Tuesday</th><td>12:30 PM – 11:00 PM</td></tr>
+        <tr data-day="3"><th scope="row">Wednesday</th><td>12:30 PM – 11:00 PM</td></tr>
+        <tr data-day="4"><th scope="row">Thursday</th><td>12:30 PM – 11:00 PM</td></tr>
+        <tr data-day="5"><th scope="row">Friday</th><td>12:30 PM – 11:59 PM</td></tr>
+        <tr data-day="6"><th scope="row">Saturday</th><td>12:30 PM – 11:59 PM</td></tr>
+        <tr data-day="0"><th scope="row">Sunday</th><td>12:30 PM – 11:59 PM</td></tr>
+      </tbody>
+    </table>
+    <div class="actions">
+      <a class="btn btn--red" href="{{MAPS}}" target="_blank" rel="noopener"><span class="btn-label">Get directions</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13m-5-6 6 6-6 6"/></svg></span></a>
+      <a class="lnk" href="mailto:{{EMAIL}}">{{EMAIL}}</a>
+    </div>
+  </div>
+  <div class="visit-map">
+    <iframe src="{{MAP_EMBED}}" title="Map: Marão Burgers, 61 Hollis St, Framingham, MA" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    <img class="visit-pin" src="/img/marao-rosto.webp" alt="" width="180" height="180">
+  </div>
+</section>

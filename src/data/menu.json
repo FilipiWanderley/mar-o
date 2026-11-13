@@ -1,0 +1,745 @@
+{
+ "Acai": [
+  {
+   "name": "LG Acai Bowl",
+   "desc": "Creamy açaí topped with strawberry, banana, powdered milk, M&M’s, condensed milk, and crunchy granola. Sweet, colorful, and irresistible.",
+   "price": "$19.99"
+  },
+  {
+   "name": "Acai Cup",
+   "desc": "Creamy açaí topped with strawberry, banana, powdered milk, M&M’s, condensed milk, and crunchy granola. Sweet, colorful, and irresistible.",
+   "price": "$13.99"
+  },
+  {
+   "name": "Acai Shake",
+   "desc": "Refreshing blend of açaí with guaraná powder, banana, strawberry, and a boost of Red Bull. Fruity, energizing, and perfect for a vibrant pick‑me‑up.",
+   "price": "$11.99"
+  }
+ ],
+ "American Burgers": [
+  {
+   "name": "Bacon Cheeseburger",
+   "desc": "Hamburger, Cheddar cheese, bacon, lettuce, tomato, onions, pickles and mayo",
+   "price": "$11.99"
+  },
+  {
+   "name": "Bacon Egg & Cheeseburger",
+   "desc": "Hamburger, egg, bacon, Cheddar cheese, tomato, lettuce, onions, pickles and mayo",
+   "price": "$11.99"
+  },
+  {
+   "name": "Barbecue Bacon Cheeseburger",
+   "desc": "Hamburger, bacon, Cheddar cheese, onions and barbecue sauce",
+   "price": "$10.99"
+  },
+  {
+   "name": "Barbecue Bacon Fried Chicken",
+   "desc": "Fried chicken, Cheddar cheese, grilled onions, bacon and barbecue sauce",
+   "price": "$12.99"
+  },
+  {
+   "name": "Buffalo Fried Chicken",
+   "desc": "Fried chicken, lettuce, onions, tomato, pickles and buffalo sauce",
+   "price": "$12.99"
+  },
+  {
+   "name": "Cheeseburger",
+   "desc": "Hamburger, lettuce, tomato, Cheddar cheese, onions, pickles and mayo",
+   "price": "$9.99"
+  },
+  {
+   "name": "Double Bacon Cheeseburger",
+   "desc": "Two hamburgers, bacon, Cheddar cheese, onions, tomato, lettuce, pickles and mayo",
+   "price": "$14.99"
+  },
+  {
+   "name": "Double Cheeseburger",
+   "desc": "Two hamburgers, Cheddar cheese, tomato, lettuce, onions, pickles and mayo",
+   "price": "$12.99"
+  },
+  {
+   "name": "Fried Chicken Sandwich",
+   "desc": "Fried chicken, mozzarella cheese, lettuce, tomato, onions, pickles and smoke mayo",
+   "price": "$12.99"
+  },
+  {
+   "name": "Grilled Chicken Burger",
+   "desc": "Grilled chicken, Cheddar cheese, lettuce, onions, pickles and mayo",
+   "price": "$13.99"
+  },
+  {
+   "name": "Hamburger",
+   "desc": "Hamburger, lettuce, tomato, onions, pickles and mayo",
+   "price": "$8.99"
+  },
+  {
+   "name": "Veggie Burger",
+   "desc": "Veggie burger, Cheddar cheese, tomato, lettuce, onions, pickles and mayo",
+   "price": "$10.99"
+  }
+ ],
+ "Brazilian Burgers": [
+  {
+   "name": "Brazilian Hamburger",
+   "desc": "Hamburger, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$10.99"
+  },
+  {
+   "name": "Junior Burger",
+   "desc": "Bun and hamburger",
+   "price": "$6.99"
+  },
+  {
+   "name": "Super X-Tudo De Marao",
+   "desc": "Hamburger, egg, bacon, ham, mozzarella cheese, lettuce, tomatoes, corn, potato stick and mayo. Steak tips, chicken or sausage",
+   "price": "$24.99"
+  },
+  {
+   "name": "X-Bacon",
+   "desc": "Hamburger, bacon, mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$16.99"
+  },
+  {
+   "name": "X-Burguer",
+   "desc": "Hamburger, mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$13.99"
+  },
+  {
+   "name": "X-Chicken",
+   "desc": "Grilled chicken, mozzarella cheese, lettuce, tomatoes, corn, mayo and potato sticks",
+   "price": "$16.99"
+  },
+  {
+   "name": "X-Egg",
+   "desc": "Hamburger, egg, mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$15.99"
+  },
+  {
+   "name": "X-Egg Bacon",
+   "desc": "Hamburger, egg, bacon, mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$17.49"
+  },
+  {
+   "name": "X-Salad",
+   "desc": "Hamburger, ham, mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$14.99"
+  },
+  {
+   "name": "X-Calabresa",
+   "desc": "Sausage, mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$17.99"
+  },
+  {
+   "name": "X-Steak Tips",
+   "desc": "Steak tips, mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$18.99"
+  },
+  {
+   "name": "X-Tudo De Marao",
+   "desc": "Hamburger, egg, bacon, ham, mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$19.99"
+  },
+  {
+   "name": "X-Vegetariano",
+   "desc": "Two eggs, two slices mozzarella cheese, lettuce, tomatoes, corn, potato sticks and mayo",
+   "price": "$12.99"
+  },
+  {
+   "name": "Xeeszinho",
+   "desc": "Egg, ham, mozzarella cheese, tomatoes and mayo",
+   "price": "$11.99"
+  }
+ ],
+ "Combos": [
+  {
+   "name": "Brazilian Hot Dog Combo",
+   "desc": "Hot dog, fries & drink",
+   "price": "$17.99"
+  },
+  {
+   "name": "Chicken Finger Combo",
+   "desc": "Chicken finger, fries & drink",
+   "price": "$15.99"
+  },
+  {
+   "name": "Chicken Nuggets Combo",
+   "desc": "Nuggets, fries, drink",
+   "price": "$10.99"
+  },
+  {
+   "name": "Chicken Wings Combo",
+   "desc": "Chicken wings, fries & drink",
+   "price": "$13.99"
+  },
+  {
+   "name": "Double Cheese Combo",
+   "desc": "Two hamburgers, Cheddar cheese, tomato, lettuce, onions, pickles and mayo, fries & drink",
+   "price": "$15.99"
+  },
+  {
+   "name": "Hot Dog Combo",
+   "desc": "Hot dog, fries & drink",
+   "price": "$7.99"
+  },
+  {
+   "name": "Hot Dog Prensado Combo",
+   "desc": "Bun, 2 sausages, chicken pate, mashed potato, bacon, mozzarella cheese, mayo, ketchup, corn, potato sticks, fries & drink",
+   "price": "$18.99"
+  },
+  {
+   "name": "Calabresa com Mandioca (Lg)",
+   "desc": "",
+   "price": "$19.99"
+  },
+  {
+   "name": "Calabresa com Mandioca (Sm)",
+   "desc": "",
+   "price": "$15.99"
+  },
+  {
+   "name": "X-Tudo Combo",
+   "desc": "X-tudo combo: Soda can and French fries paired with your burger.",
+   "price": "$26.99"
+  }
+ ],
+ "Wraps, Subs & Hot Dogs": [
+  {
+   "name": "American Hot Dog",
+   "desc": "Bun and sausage",
+   "price": "$3.99"
+  },
+  {
+   "name": "Bacon Cheddar Hot Dog",
+   "desc": "Bun, sausage, Cheddar sauce and bacon bits",
+   "price": "$7.99"
+  },
+  {
+   "name": "Brazilian Hot Dog",
+   "desc": "Bun, 2 sausages, tomato sauce, bacon bits, corn, Parmesan cheese and potato sticks",
+   "price": "$12.99"
+  },
+  {
+   "name": "Buffalo Chicken Wrap",
+   "desc": "Buffalo chicken, blue cheese and lettuce",
+   "price": "$14.49"
+  },
+  {
+   "name": "Chicken Parm Sub",
+   "desc": "Fried chicken, marinara sauce, mozzarella & Parmesan cheese",
+   "price": "$14.99"
+  },
+  {
+   "name": "Chicken Salad Wrap",
+   "desc": "Grilled chicken, Caesar dressing, lettuce and croutons",
+   "price": "$14.49"
+  },
+  {
+   "name": "Grilled Chicken Wrap",
+   "desc": "Grilled chicken, green sauce, lettuce and tomatoes",
+   "price": "$14.49"
+  },
+  {
+   "name": "Hot Dog Prensado",
+   "desc": "Bun, 2 sausages, chicken pate, mashed potato, bacon, mozzarella cheese, mayo, ketchup, corn, potato sticks",
+   "price": "$14.99"
+  },
+  {
+   "name": "Steak & Cheese Sub",
+   "desc": "Steak, Cheese, Peppers and onions",
+   "price": "$14.99"
+  },
+  {
+   "name": "Macarrao na chapa",
+   "desc": "",
+   "price": "$23.99"
+  },
+  {
+   "name": "Fried Rice Plate",
+   "desc": "",
+   "price": "$23.99"
+  }
+ ],
+ "Pastel": [
+  {
+   "name": "Pastel de Bacon e Cheedar",
+   "desc": "",
+   "price": "$10.99"
+  },
+  {
+   "name": "Pastel de Banana com Canela",
+   "desc": "Golden pastry filled with sweet banana, sprinkled with cinnamon, and fried to perfection. Warm, crispy, and irresistibly delicious.",
+   "price": "$8.99"
+  },
+  {
+   "name": "Pastel de Carne",
+   "desc": "Crispy golden pastry stuffed with seasoned beef, fried to perfection. Savory, hearty, and delicious in every bite.",
+   "price": "$9.99"
+  },
+  {
+   "name": "Pastel de Carne e Queijo",
+   "desc": "Crispy golden pastry stuffed with seasoned beef and melted cheese. Savory, hearty, and delicious in every bite.",
+   "price": "$9.99"
+  },
+  {
+   "name": "Pastel de Queijo",
+   "desc": "",
+   "price": "$9.99"
+  },
+  {
+   "name": "Pastel de Frango",
+   "desc": "Crispy golden pastry filled with tender seasoned chicken. Savory, crunchy, and delicious in every bite.",
+   "price": "$9.99"
+  },
+  {
+   "name": "Pastel de Frango com Catupiry",
+   "desc": "Golden, crispy pastry filled with tender chicken and creamy Catupiry cheese. Savory, rich, and irresistibly delicious.",
+   "price": "$10.99"
+  },
+  {
+   "name": "Pastel de Romeu e Julieta",
+   "desc": "Crispy golden pastry filled with sweet guava and creamy cheese. A classic Brazilian duo, warm, rich, and irresistibly delicious.",
+   "price": "$9.99"
+  },
+  {
+   "name": "Pastel Pizza",
+   "desc": "",
+   "price": "$8.99"
+  }
+ ],
+ "Fried Chicken": [
+  {
+   "name": "(10) Chicken Fingers",
+   "desc": "10 Crispy strips of fried chicken.",
+   "price": "$16.99"
+  },
+  {
+   "name": "(10) Wings",
+   "desc": "",
+   "price": "$14.99"
+  },
+  {
+   "name": "(15) Chicken Fingers",
+   "desc": "15 Crispy strips of fried chicken.",
+   "price": "$25.99"
+  },
+  {
+   "name": "(15) Wings",
+   "desc": "",
+   "price": "$19.99"
+  },
+  {
+   "name": "(5) Chicken Fingers",
+   "desc": "5 Crispy strips of fried chicken.",
+   "price": "$10.99"
+  },
+  {
+   "name": "(5) Wings",
+   "desc": "",
+   "price": "$9.99"
+  },
+  {
+   "name": "Fried Chicken (Lg)",
+   "desc": "Crispy chicken pieces",
+   "price": "$27.99"
+  },
+  {
+   "name": "Fried Chicken (Sm)",
+   "desc": "Crispy chicken pieces",
+   "price": "$18.99"
+  }
+ ],
+ "Salads": [
+  {
+   "name": "Brazilian Salad",
+   "desc": "Lettuce, tomato, onion, eggs, black olives, hearts of palm, grilled chicken, corn and dried cranberries",
+   "price": "$16.99"
+  },
+  {
+   "name": "Caesar Salad",
+   "desc": "Lettuce, croutons and caesar dressing on the side.",
+   "price": "$9.99"
+  },
+  {
+   "name": "Crispy Chicken Salad",
+   "desc": "",
+   "price": "$15.99"
+  }
+ ],
+ "Tray": [
+  {
+   "name": "Bandejao",
+   "desc": "Serves 10 people. Fried chicken pieces and fried yucca",
+   "price": "$89.99"
+  },
+  {
+   "name": "Mini Hamburger Tray",
+   "desc": "Serves 10 people",
+   "price": "$69.99"
+  },
+  {
+   "name": "Mini Hot Dog Tray",
+   "desc": "Serves 10 people",
+   "price": "$39.99"
+  },
+  {
+   "name": "Mix Tray",
+   "desc": "Serves 10 people. Fried chicken pieces, fried yucca, fries, onion rings and mozzarella sticks",
+   "price": "$94.99"
+  },
+  {
+   "name": "Wings Tray",
+   "desc": "Serves 10 people",
+   "price": "$120.00"
+  },
+  {
+   "name": "Yucca Tray",
+   "desc": "Serves 10 people",
+   "price": "$49.99"
+  }
+ ],
+ "Desserts": [
+  {
+   "name": "Canjicao",
+   "desc": "Brazilian sweet made with creamy corn, milk, and coconut. A smooth texture and authentic flavor that wins you over from the first bite.",
+   "price": "$6.99"
+  },
+  {
+   "name": "Churros",
+   "desc": "Golden, crispy churros dusted with sugar, served warm with irresistible flavor. A sweet treat that delights every bite.",
+   "price": "$9.99"
+  },
+  {
+   "name": "Bolo de Pote",
+   "desc": "Moist, fluffy cake baked in a pot style, rich in flavor and comforting in every bite. A homestyle dessert that feels warm and indulgent.",
+   "price": "$13.50"
+  },
+  {
+   "name": "pudim",
+   "desc": "Creamy, sweet rice pudding with a touch of cinnamon. Smooth, comforting, and delicious in every spoonful.",
+   "price": "$4.99"
+  },
+  {
+   "name": "Sweets From Marao Mix",
+   "desc": "Typically includes an assortment of sweets, often featuring traditional Portuguese pastries and confections.",
+   "price": "$10.99"
+  },
+  {
+   "name": "Three-Milk Cake",
+   "desc": "",
+   "price": "$4.99"
+  }
+ ],
+ "Sauces": [
+  {
+   "name": "BBQ Sauce",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Blue Cheese Sauce",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Buffalo sauce - Spicy sauce",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Caesar Dressing",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Green Sauce",
+   "desc": "",
+   "price": "$0.96"
+  },
+  {
+   "name": "Guardanapo",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Honey Mustard Sauce",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Italian Dressing",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Ketchup",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Ranch Dressing",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Smoke Mayo Sauce",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Spicy Mayo Sauce",
+   "desc": "",
+   "price": "$0.48"
+  },
+  {
+   "name": "Teriyaki Sauce",
+   "desc": "",
+   "price": "$0.48"
+  }
+ ],
+ "Sides": [
+  {
+   "name": "Bacon Cheese Fries (Lg)",
+   "desc": "",
+   "price": "$16.00"
+  },
+  {
+   "name": "Bacon Cheese Fries (Sm)",
+   "desc": "",
+   "price": "$12.00"
+  },
+  {
+   "name": "Chicken Cheese Fries (Lg)",
+   "desc": "",
+   "price": "$16.00"
+  },
+  {
+   "name": "Chicken Cheese Fries (Sm)",
+   "desc": "",
+   "price": "$12.00"
+  },
+  {
+   "name": "French Fries (Lg)",
+   "desc": "",
+   "price": "$10.99"
+  },
+  {
+   "name": "French Fries (Sm)",
+   "desc": "",
+   "price": "$6.99"
+  },
+  {
+   "name": "Fried Plantain (Lg)",
+   "desc": "",
+   "price": "$5.99"
+  },
+  {
+   "name": "Fried Plantain (Sm)",
+   "desc": "",
+   "price": "$3.99"
+  },
+  {
+   "name": "Fried Yucca (Lg)",
+   "desc": "",
+   "price": "$12.99"
+  },
+  {
+   "name": "Fried Yucca (Sm)",
+   "desc": "",
+   "price": "$7.99"
+  },
+  {
+   "name": "Mozzarella Sticks (Lg)",
+   "desc": "",
+   "price": "$16.99"
+  },
+  {
+   "name": "Mozzarella Sticks (Sm)",
+   "desc": "",
+   "price": "$9.99"
+  },
+  {
+   "name": "Onion Rings (Lg)",
+   "desc": "",
+   "price": "$8.99"
+  },
+  {
+   "name": "Onion Rings (Sm)",
+   "desc": "",
+   "price": "$5.99"
+  }
+ ],
+ "Drinks": [
+  {
+   "name": "Guarana 2L",
+   "desc": "A Brazilian soda made from guaraná fruits found in the Amazon forest.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Soda Can",
+   "desc": "Soda can options: Coke, Coke Zero, Ginger Ale, Fanta (Orange/Grape), Sprite, Pepsi,",
+   "price": "$2.99"
+  },
+  {
+   "name": "Bottled Water",
+   "desc": "Pure and refreshing bottled water.",
+   "price": "$2.00"
+  },
+  {
+   "name": "Coca Cola 2 Liters",
+   "desc": "A classic carbonated cola beverage, ideal for sharing.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Coca Cola Zero 2L",
+   "desc": "Coca-Cola Zero 2 Liters: Classic cola taste with zero sugar, perfect for sharing.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Coke 600ML",
+   "desc": "Refreshing and classic carbonated beverage in a 600ml serving size.",
+   "price": "$3.49"
+  },
+  {
+   "name": "Coke Ks",
+   "desc": "A classic cola beverage, typically featuring a crisp, sweet taste.",
+   "price": "$2.99"
+  },
+  {
+   "name": "Fanta 2 Litros Uva",
+   "desc": "Refreshing grape soda with bold fruity flavor and fizzy sweetness. A vibrant, bubbly drink that’s perfect to pair with any meal.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Fanta 600ML",
+   "desc": "Bright, fizzy orange soda bursting with citrus flavor. Sweet, refreshing, and the perfect bubbly drink to enjoy with any meal.",
+   "price": "$3.49"
+  },
+  {
+   "name": "Fanta Laranja 2 Liter",
+   "desc": "Bright, fizzy orange soda bursting with citrus flavor. Sweet, refreshing, and the perfect bubbly drink to enjoy with any meal.",
+   "price": "$6.99"
+  },
+  {
+   "name": "Guara Viton-Acai",
+   "desc": "A vibrant juice blend featuring guarana and acai, typically enjoyed for its unique Amazonian fruit notes and energizing qualities.",
+   "price": "$2.99"
+  },
+  {
+   "name": "Guara Viton-Ginseng",
+   "desc": "Combines guarana and ginseng extracts, typically offering an energizing and revitalizing drink experience with a unique taste.",
+   "price": "$2.99"
+  },
+  {
+   "name": "Guaraná 2 Liters",
+   "desc": "A Brazilian soda made from guaraná fruits found in the Amazon forest.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Kids Juice",
+   "desc": "Delicious and refreshing!",
+   "price": "$4.99"
+  },
+  {
+   "name": "Monster",
+   "desc": "A power-packed energy drink to keep you energized and focused.",
+   "price": "$4.99"
+  },
+  {
+   "name": "Prime",
+   "desc": "A stimulating energy drink typically includes caffeine, vitamins, and electrolytes to help boost your energy and focus.",
+   "price": "$3.99"
+  },
+  {
+   "name": "Red Bull",
+   "desc": "Invigorating Energy Surge: The Classic Red Bull Experience",
+   "price": "$4.99"
+  },
+  {
+   "name": "Sparkling Bottled Water",
+   "desc": "Sparkling bottled water: Effervescent and refreshing, this bottled water offers a crisp taste. Brands may vary.",
+   "price": "$2.50"
+  },
+  {
+   "name": "Vita Coco",
+   "desc": "Vita Coco juice: Typically includes the refreshing taste of pure coconut water, providing natural hydration.",
+   "price": "$2.99"
+  },
+  {
+   "name": "Coconut Foco",
+   "desc": "Typically includes refreshing coconut water, providing a natural and hydrating beverage option.",
+   "price": "$2.99"
+  }
+ ],
+ "Sucos / Vitaminas": [
+  {
+   "name": "Suco De Laranja",
+   "desc": "",
+   "price": "$6.99"
+  },
+  {
+   "name": "Limonada Suica",
+   "desc": "Freshly squeezed lemonade typically made with lemon juice, water, and a touch of sweetener.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Caldo de Cana",
+   "desc": "Freshly pressed sugarcane served chilled. Naturally sweet, crisp, and energizing—an authentic tropical refreshment in every sip.",
+   "price": "$6.49"
+  },
+  {
+   "name": "Chocolate Milkshake",
+   "desc": "Decadent chocolate shake blended to perfection, a delightful treat for chocolate lovers and beyond.",
+   "price": "$8.99"
+  },
+  {
+   "name": "Oreo Milkshake",
+   "desc": "An indulgent milkshake blended with the classic flavors of Oreo cookies.",
+   "price": "$8.99"
+  },
+  {
+   "name": "Strawberry Milkshake",
+   "desc": "Creamy Strawberry Milkshake- the perfect fruity indulgence",
+   "price": "$8.99"
+  },
+  {
+   "name": "Suco De Garrafa",
+   "desc": "Bottled juice, typically available in a variety of fruit flavors to complement your meal.",
+   "price": "$2.99"
+  },
+  {
+   "name": "Suco De Abacaxi com Hortela",
+   "desc": "Abacaxi com Hortelã: A refreshing blend of pineapple and mint, typically enjoyed as a revitalizing beverage.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Suco De Manga",
+   "desc": "Mango juice typically blended with water, offering a sweet and tropical drink",
+   "price": "$5.99"
+  },
+  {
+   "name": "Vitamina Maracuja",
+   "desc": "Passion fruit juice typically includes freshly blended passion fruit for a refreshing and exotic drink.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Vitamina Morango",
+   "desc": "Blended strawberries with milk, typically sweetened and sometimes enriched with a touch of vanilla.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Vitamina Pessego",
+   "desc": "Vitamina pessego is a peach-flavored beverage, typically enhanced with essential vitamins and minerals, offering a refreshing way to stay hydrated and nourished.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Vitamina De Manga",
+   "desc": "Blended mango drink typically enriched with essential vitamins and minerals, offering a nourishing and refreshing beverage experience.",
+   "price": "$5.99"
+  },
+  {
+   "name": "Caldo de Cana com Limao",
+   "desc": "Freshly pressed sugarcane juice with a hint of lime, offering a natural sweetness balanced by citrusy notes.",
+   "price": "$6.99"
+  }
+ ]
+}

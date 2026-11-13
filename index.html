@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="carregando">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marão Burgers · Brazilian burgers in Framingham, MA</title>
+  <meta name="description" content="X-Tudo, pastel, açaí and caldo de cana at 61 Hollis St, Framingham, MA. Brazilian burgers with corn, potato sticks and a fried egg. Order online.">
+  <meta property="og:title" content="Marão Burgers · Brazilian burgers in Framingham">
+  <meta property="og:description" content="X-Tudo, pastel, açaí and caldo de cana at 61 Hollis St, Framingham, MA.">
+  <meta property="og:image" content="/img/og.jpg">
+  <meta property="og:type" content="restaurant">
+  <meta name="theme-color" content="#0a0505">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" as="image" href="/frames/d/f_001.webp" media="(min-aspect-ratio: 1/1)">
+  <link rel="preload" as="image" href="/frames/m/f_001.webp" media="(max-aspect-ratio: 1/1)">
+  <style>
+    /* Primeira pintura: tela escura com o loader por cima */
+    html, body { background: #0a0505; margin: 0; }
+    html.carregando body { overflow: hidden; }
+    html.carregando .word span { transform: scale(1.1, .6); }
+    html.carregando .hero-canvas, html.carregando .hero-copy, html.carregando .hero-side, html.carregando .nav, html.carregando .seal { opacity: 0; }
+  </style>
+  <script>history.scrollRestoration = 'manual'; window.scrollTo(0, 0);</script>
+  <noscript><style>html.carregando body { overflow: auto; } html.carregando .word span { transform: none; } html.carregando .hero-canvas, html.carregando .hero-copy, html.carregando .hero-side, html.carregando .nav, html.carregando .seal { opacity: 1; } .hero-counter { display: none; }</style></noscript>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Marão Burgers",
+    "servesCuisine": ["Brazilian", "Burgers"],
+    "address": { "@type": "PostalAddress", "streetAddress": "61 Hollis St", "addressLocality": "Framingham", "addressRegion": "MA", "postalCode": "01702", "addressCountry": "US" },
+    "email": "maraoburgerf@gmail.com",
+    "url": "https://maraoburgersframingham.com/",
+    "hasMenu": "https://online.skytab.com/2e8ba4e4d45c67aa16118f69b3cb8850",
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "12:30", "closes": "23:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday", "Sunday"], "opens": "12:30", "closes": "23:59" }
+    ],
+    "priceRange": "$"
+  }
+  </script>
+</head>
+<body>
+  <a class="skip btn btn--red" href="#order">Skip to ordering</a>
+  <!-- @include sections/nav.html -->
+  <main>
+    <!-- @include sections/hero.html -->
+    <!-- @include sections/build.html -->
+    <!-- @include sections/chapa.html -->
+    <!-- @include sections/manifesto.html -->
+    <!-- @include sections/platter.html -->
+    <!-- @include sections/menu.html -->
+    <!-- @include sections/films.html -->
+    <!-- @include sections/faq.html -->
+    <!-- @include sections/visit.html -->
+    <!-- @include sections/order.html -->
+  </main>
+  <!-- @include sections/footer.html -->
+  <canvas class="sparks" aria-hidden="true"></canvas>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

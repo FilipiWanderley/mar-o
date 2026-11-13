@@ -1,0 +1,51 @@
+<section class="build" id="build" data-bg="red" data-tone="red" aria-labelledby="build-title">
+  <div class="build-intro reveal">
+    <h2 id="build-title" class="lines">Build your X</h2>
+    <p>Every Brazilian burger here starts as an X-Burguer: beef, mozzarella, lettuce, tomato, corn, potato sticks and mayo. Pick what goes in the middle and add what you want. We'll tell you its name and what it costs.</p>
+    <p class="build-why">Why X? Say “cheese” in Portuguese and it sounds like “xis”. So a cheeseburger is an X-Burguer.</p>
+  </div>
+
+  <div class="builder" data-builder>
+    <div class="builder-controls">
+      <fieldset>
+        <legend>In the middle</legend>
+        <div class="chips" role="radiogroup" aria-label="Main protein">
+          <button type="button" class="chip" role="radio" aria-checked="true" data-protein="beef">Beef patty</button>
+          <button type="button" class="chip" role="radio" aria-checked="false" data-protein="chicken">Grilled chicken</button>
+          <button type="button" class="chip" role="radio" aria-checked="false" data-protein="calabresa">Calabresa sausage</button>
+          <button type="button" class="chip" role="radio" aria-checked="false" data-protein="steak">Steak tips</button>
+          <button type="button" class="chip" role="radio" aria-checked="false" data-protein="veg">Two eggs, no meat</button>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Add</legend>
+        <div class="chips">
+          <button type="button" class="chip" aria-pressed="true" data-add="egg">Fried egg</button>
+          <button type="button" class="chip" aria-pressed="true" data-add="bacon">Bacon</button>
+          <button type="button" class="chip" aria-pressed="true" data-add="ham">Ham</button>
+        </div>
+      </fieldset>
+
+      <div class="builder-result" aria-live="polite">
+        <p class="result-name" data-result-name>X-Tudo De Marão</p>
+        <p class="result-price" data-result-price>$19.99</p>
+        <p class="result-note" data-result-note>The one with everything. Our namesake.</p>
+        <a class="btn btn--dark" href="{{ORDER}}"><span class="btn-label">Order this one</span><span class="btn-arrow" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 12h13m-5-6 6 6-6 6"/></svg></span></a>
+      </div>
+    </div>
+
+    <ol class="stack" aria-label="Layers, top to bottom" data-stack>
+      <li class="on" data-layer="top">Top bun</li>
+      <li class="on" data-layer="sticks">Potato sticks</li>
+      <li class="on" data-layer="corn">Corn</li>
+      <li class="on" data-layer="bacon">Bacon</li>
+      <li class="on" data-layer="egg">Fried egg</li>
+      <li class="on" data-layer="ham">Ham</li>
+      <li class="on" data-layer="cheese">Mozzarella</li>
+      <li class="on" data-layer="protein" data-protein-label>Beef patty</li>
+      <li class="on" data-layer="tomato">Tomato</li>
+      <li class="on" data-layer="lettuce">Lettuce</li>
+      <li class="on" data-layer="bottom">Bottom bun</li>
+    </ol>
+  </div>
+</section>

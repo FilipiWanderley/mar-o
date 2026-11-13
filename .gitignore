@@ -6,3 +6,5 @@ Thumbs.db
 .env
 .env.*
 .taste-skill/
+
+.vercel

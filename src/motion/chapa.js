@@ -38,6 +38,18 @@ export function initChapa({ reduced, mobile }) {
     dispatchEvent(new CustomEvent('marao:smash'));
   }
 
+  // Celular e telas de toque: a cena não fica presa. O vídeo toca sozinho em loop,
+  // inteiro, logo abaixo do título (arrastar o tempo do vídeo pela rolagem falha no iPhone).
+  const touch = mobile || matchMedia('(hover: none)').matches;
+  if (touch) {
+    sec.classList.add('chapa--static');
+    video.removeAttribute('data-scrub');
+    video.setAttribute('data-autoplay', '');
+    video.dataset.mobile = '/video/chapa-m.mp4';
+    video.loop = true;
+    return;
+  }
+
   const R = 26;
   const geo = { s0: 0.4 };
   function place() {

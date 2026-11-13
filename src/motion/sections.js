@@ -29,33 +29,34 @@ export function initLight(reduced) {
   });
 }
 
-// Vídeos em loop tocam só na tela; a chapa solta faíscas quando o burger cai
+// Vídeos em loop: tocam só quando estão na tela. No celular usam uma versão menor.
+// Celulares (principalmente iPhone) só tocam sozinhos vídeo mudo com playsinline, e às vezes
+// só depois do primeiro toque na página: por isso o "destravar" no primeiro toque.
 export function initVideos(reduced) {
-  const vids = document.querySelectorAll('video[data-autoplay]');
+  const small = matchMedia('(max-width: 760px)').matches;
+  const vids = [...document.querySelectorAll('video[data-autoplay]')];
+  vids.forEach((v) => {
+    v.muted = true; v.defaultMuted = true; v.playsInline = true;
+    v.setAttribute('muted', ''); v.setAttribute('playsinline', ''); v.setAttribute('webkit-playsinline', '');
+    if (small && v.dataset.mobile) { v.src = v.dataset.mobile; }
+    v.preload = small ? 'auto' : 'metadata';
+  });
+  const visible = new Set();
+  const tryPlay = (v) => {
+    if (reduced) return;
+    const p = v.play();
+    if (p && p.catch) p.catch(() => { v.addEventListener('canplay', () => visible.has(v) && v.play().catch(() => {}), { once: true }); });
+  };
   const io = new IntersectionObserver((es) => es.forEach((e) => {
     const v = e.target;
-    if (e.isIntersecting && !reduced) v.play().catch(() => {});
-    else v.pause();
-  }), { threshold: 0.25 });
+    if (e.isIntersecting) { visible.add(v); tryPlay(v); }
+    else { visible.delete(v); v.pause(); }
+  }), { threshold: 0.2 });
   vids.forEach((v) => io.observe(v));
-
-  const chapa = document.querySelector('video[data-sizzle]');
-  if (!chapa || reduced) return;
-  let prev = 0;
-  const AT = 3.15; // segundo em que o burger volta para a chapa
-  const check = () => {
-    const t = chapa.currentTime;
-    if (prev < AT && t >= AT && !chapa.paused) {
-      const r = chapa.getBoundingClientRect();
-      const x = r.left + r.width * 0.62, y = r.top + r.height * 0.74;
-      burst({ x0: x - r.width * 0.08, x1: x + r.width * 0.08, y, count: innerWidth < 760 ? 60 : 130, kinds: { spark: 6, drop: 1 }, floor: r.bottom });
-      sizzle({ x0: x - r.width * 0.1, x1: x + r.width * 0.1, y, rate: 14, duration: 0.8 });
-    }
-    prev = t;
-    if ('requestVideoFrameCallback' in chapa) chapa.requestVideoFrameCallback(check);
-  };
-  if ('requestVideoFrameCallback' in chapa) chapa.requestVideoFrameCallback(check);
-  else chapa.addEventListener('timeupdate', check);
+  const unlock = () => { visible.forEach(tryPlay); };
+  addEventListener('touchstart', unlock, { once: true, passive: true });
+  addEventListener('pointerdown', unlock, { once: true, passive: true });
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) visible.forEach(tryPlay); });
 }
 
 // Perguntas: só uma aberta por vez

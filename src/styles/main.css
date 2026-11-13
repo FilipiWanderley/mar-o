@@ -468,3 +468,11 @@ legend { font-weight: 800; font-size: 22px; font-variation-settings: 'wdth' 80; 
 @media (prefers-reduced-motion: reduce) { .nav-sound.is-on .eq i { animation: none; height: 10px; } }
 
 @media (prefers-reduced-motion: reduce) { .hero-side .seal { opacity: 1; transform: none; pointer-events: auto; } }
+
+/* Chapa no celular: sem trecho preso, título, vídeo inteiro e texto em sequência */
+.chapa--static { padding: var(--section) var(--edge) !important; }
+.chapa--static .chapa-pin { height: auto; overflow: visible; display: grid; gap: 22px; }
+.chapa--static .chapa-window { position: relative; inset: auto; left: auto !important; top: auto !important; width: 100% !important; height: auto !important; aspect-ratio: 16 / 9; transform: none !important; border-radius: 20px; order: 2; }
+.chapa--static .chapa-left, .chapa--static .chapa-right { position: static; transform: none; width: auto; }
+.chapa--static .chapa-left { order: 1; font-size: clamp(36px, 10vw, 64px); }
+.chapa--static .chapa-right { order: 3; font-size: 17px; }

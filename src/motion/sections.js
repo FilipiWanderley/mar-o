@@ -54,8 +54,8 @@ export function initVideos(reduced) {
   }), { threshold: 0.2 });
   vids.forEach((v) => io.observe(v));
   const unlock = () => { visible.forEach(tryPlay); };
-  addEventListener('touchstart', unlock, { once: true, passive: true });
-  addEventListener('pointerdown', unlock, { once: true, passive: true });
+  // O iPhone só conta como "a pessoa tocou" no fim do toque (touchend/click), não no começo
+  ['touchend', 'click', 'keydown'].forEach((ev) => addEventListener(ev, unlock, { passive: true }));
   document.addEventListener('visibilitychange', () => { if (!document.hidden) visible.forEach(tryPlay); });
 }
 

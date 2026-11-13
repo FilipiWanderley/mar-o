@@ -476,3 +476,5 @@ legend { font-weight: 800; font-size: 22px; font-variation-settings: 'wdth' 80; 
 .chapa--static .chapa-left, .chapa--static .chapa-right { position: static; transform: none; width: auto; }
 .chapa--static .chapa-left { order: 1; font-size: clamp(36px, 10vw, 64px); }
 .chapa--static .chapa-right { order: 3; font-size: 17px; }
+.chapa--static .chapa-window { background-size: cover; background-position: center; }
+.chapa-canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }

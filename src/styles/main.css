@@ -136,7 +136,7 @@ button { font: inherit; color: inherit; }
 /* O selo só carimba depois que o pão pousa (no começo ele brigaria com o Marão) */
 .hero-side .seal { opacity: 0; transform: scale(.6) rotate(-20deg); transition: opacity .35s var(--in), transform .5s var(--in); pointer-events: none; }
 .hero--stamped .hero-side .seal { opacity: 1; transform: none; transition: opacity .3s var(--out), transform .7s var(--press); pointer-events: auto; }
-.hero-side { align-content: end; padding-bottom: 6vh; }
+.hero-side { align-content: end; padding-bottom: 6svh; }
 .moment { grid-area: 1 / 1; display: grid; gap: 22px; justify-items: start; align-content: center; }
 .hero h1 { font-size: clamp(34px, 3.05vw, 58px); line-height: .92; font-variation-settings: 'wdth' 66; }
 .lede { font-size: 18px; line-height: 1.45; color: var(--ink); max-width: 32ch; }
@@ -263,7 +263,7 @@ legend { font-weight: 800; font-size: 22px; font-variation-settings: 'wdth' 80; 
 .platter-pin { position: relative; height: 100svh; overflow: hidden; }
 .platter-names { position: absolute; inset: 0; display: grid; place-items: center; pointer-events: none; }
 .pname {
-  grid-area: 1 / 1; margin-top: -18vh; white-space: nowrap; color: var(--red);
+  grid-area: 1 / 1; margin-top: -18svh; white-space: nowrap; color: var(--red);
   font: italic 700 clamp(84px, 17vw, 300px)/.9 var(--serif); letter-spacing: -.02em; visibility: hidden;
 }
 .pname span { display: inline-block; transform-origin: 50% 100%; }
@@ -357,8 +357,8 @@ legend { font-weight: 800; font-size: 22px; font-variation-settings: 'wdth' 80; 
 .faq-a a { font-weight: 700; }
 
 /* ── Card de pedido ───────────────────────────────────────────────────── */
-.order { padding-bottom: calc(var(--section) + 8vh) !important; }
-.order-card { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); border-radius: var(--radius); overflow: hidden; background: var(--red); color: var(--on-red); min-height: 74vh; }
+.order { padding-bottom: calc(var(--section) + 8svh) !important; }
+.order-card { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); border-radius: var(--radius); overflow: hidden; background: var(--red); color: var(--on-red); min-height: 74svh; }
 .order-media { position: relative; min-height: 100%; }
 .order-media img { position: absolute; left: 50%; bottom: 0; transform: translateX(-46%); height: 97%; width: auto; max-width: none; object-fit: contain; object-position: 50% 100%; }
 .order-body { display: grid; align-content: center; gap: clamp(28px, 3vw, 48px); padding: clamp(28px, 4vw, 64px); }
@@ -384,12 +384,12 @@ legend { font-weight: 800; font-size: 22px; font-variation-settings: 'wdth' 80; 
   .row { padding: 18px; gap: 4px 14px; }
   .row-name { font-size: 26px; }
   .row-desc { font-size: 15px; }
-  .order-media { height: min(110vw, 460px); }
-  .order-media img { height: 100%; transform: translateX(-48%); }
+  .order-media { height: auto; min-height: 0; display: grid; justify-items: center; padding: 28px 24px 0; }
+  .order-media img { position: static; transform: none; width: min(82%, 340px); height: auto; }
 }
 
 /* ── Rodapé: a folha de osso sobe com a beira rasgada ─────────────────── */
-.footer { margin-top: -14vh; position: relative; z-index: 5; }
+.footer { margin-top: -14svh; position: relative; z-index: 5; }
 .footer-sheet { position: relative; background: var(--bone); color: var(--on-red); padding: clamp(72px, 9vw, 140px) var(--edge) 28px; display: grid; gap: clamp(40px, 5vw, 72px); }
 .footer-sheet::before { content: ''; position: absolute; left: 0; right: 0; bottom: calc(100% - 1px); height: 30px; background: var(--torn-strip) 0 0 / 100% 100% no-repeat; }
 .footer-top { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 24px; }

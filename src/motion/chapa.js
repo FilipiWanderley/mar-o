@@ -1,4 +1,5 @@
 import { gsap } from 'gsap';
+import { stableVH } from './viewport.js';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { splitLines, enterLines, exitLines, hideLines, enterBlock, exitBlock } from './lines.js';
 import { burst, sizzle } from './sparks.js';
@@ -83,7 +84,7 @@ export function initChapa({ reduced, mobile }) {
     .to({}, { duration: 0.2 });
 
   ScrollTrigger.create({
-    trigger: sec, start: 'top top', end: () => '+=' + innerHeight * (mobile ? 1.2 : 1.8),
+    trigger: sec, start: 'top top', end: () => '+=' + stableVH() * (mobile ? 1.2 : 1.8),
     pin, scrub: 0.6, animation: tl, invalidateOnRefresh: true,
     onRefresh: () => { place(); radius(); },
     onLeaveBack: () => { if (shown) { shown = false; exitLines(title); exitBlock(text); } },

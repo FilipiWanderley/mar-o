@@ -1,4 +1,5 @@
 import { gsap } from 'gsap';
+import { stableVH } from './viewport.js';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { burst, sizzle } from './sparks.js';
 import { grow } from './words.js';
@@ -114,7 +115,7 @@ export function initHero(h, frames, { reduced, mobile }) {
 
   let vFast = false;
   const st = ScrollTrigger.create({
-    trigger: hero, start: 'top top', end: () => '+=' + innerHeight * (mobile ? 2.2 : 3),
+    trigger: hero, start: 'top top', end: () => '+=' + stableVH() * (mobile ? 2.2 : 3),
     pin, scrub: 0.6, animation: tl, invalidateOnRefresh: true,
     onUpdate(self) { vFast = Math.abs(self.getVelocity()) > innerHeight * 2.5; },
     onRefresh: () => frames.draw(state.v),

@@ -1,4 +1,5 @@
 import { gsap } from 'gsap';
+import { stableVH } from './viewport.js';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { splitLetters } from './words.js';
 
@@ -99,7 +100,7 @@ export function initPlatter({ reduced, mobile, lenis }) {
   setName(0); setInfo(0, false);
 
   const st = ScrollTrigger.create({
-    trigger: sec, start: 'top top', end: () => '+=' + innerHeight * (ITEMS.length * 0.7),
+    trigger: sec, start: 'top top', end: () => '+=' + stableVH() * (ITEMS.length * 0.7),
     pin, invalidateOnRefresh: true, onRefresh: measure,
     onUpdate(self) { go(Math.min(ITEMS.length - 1, Math.floor(self.progress * ITEMS.length))); },
   });

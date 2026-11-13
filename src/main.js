@@ -8,6 +8,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
 import { createFrames } from './motion/frames.js';
+import { onWidthChange } from './motion/viewport.js';
 import { createHero, initHero, runIntro } from './motion/hero.js';
 import { initNav, initAnchors } from './motion/nav.js';
 import { initBuilder } from './motion/builder.js';
@@ -19,6 +20,8 @@ import { initSound } from './motion/sound.js';
 import { initScrolling, initTouch, initTabs, initTitles, initFooter } from './motion/ui.js';
 
 gsap.registerPlugin(ScrollTrigger);
+// No celular a barra de endereço muda a altura da tela ao rolar: isso não deve recalcular a página
+ScrollTrigger.config({ ignoreMobileResize: true });
 
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const mobile = matchMedia('(max-width: 760px)').matches;
@@ -78,7 +81,7 @@ document.fonts.ready.then(() => {
   initScrolling(lenis);
   initTouch();
 
-  addEventListener('resize', () => { layoutHero(); ScrollTrigger.refresh(); });
+  onWidthChange(() => { layoutHero(); ScrollTrigger.refresh(); });
 
   // 3. A abertura libera a rolagem no fim
   runIntro(hero, {
